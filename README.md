@@ -9,13 +9,18 @@ Variants that do not have a Gene specified are excluded from this list!
 Running the program
 --------------------
 
-python variant_counter.py testData.vcf
+python toyvcf/variant_counter.py data/testData.vcf
 
 
 Running the unit tests
 -----------------------
 
 python -m unittest discover -s <path_to_tests> -p '*_tests.py'
+
+
+Test program output
+--------------------------------
+Sample program output for running on data/testData.vcf is located in data/testData.output
 
 
 
